@@ -1,0 +1,20 @@
+{
+    "name": "aktar/testi-slider",
+    "description": "A wordpress plugin for creating testimonial slider",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Aktar Uz Zaman",
+            "email": "auzaman50.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Aktar\\TestiSlider\\": "includes/"
+        },
+        "files": []
+    }
+}
